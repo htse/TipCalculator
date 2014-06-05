@@ -19,6 +19,10 @@
 		2FE68E3D193ED10300A68D7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE68E25193ED10300A68D7E /* UIKit.framework */; };
 		2FE68E45193ED10300A68D7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE68E43193ED10300A68D7E /* InfoPlist.strings */; };
 		2FE68E47193ED10300A68D7E /* QuickTipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE68E46193ED10300A68D7E /* QuickTipCalculatorTests.m */; };
+		2FE68E53193ED13600A68D7E /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE68E51193ED13600A68D7E /* TipViewController.m */; };
+		2FE68E54193ED13600A68D7E /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE68E52193ED13600A68D7E /* TipViewController.xib */; };
+		2FE68E581940473200A68D7E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE68E561940473200A68D7E /* SettingsViewController.m */; };
+		2FE68E591940473200A68D7E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE68E571940473200A68D7E /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		2FE68E42193ED10300A68D7E /* QuickTipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickTipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		2FE68E44193ED10300A68D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2FE68E46193ED10300A68D7E /* QuickTipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTipCalculatorTests.m; sourceTree = "<group>"; };
+		2FE68E50193ED13600A68D7E /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		2FE68E51193ED13600A68D7E /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		2FE68E52193ED13600A68D7E /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		2FE68E551940473200A68D7E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2FE68E561940473200A68D7E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2FE68E571940473200A68D7E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				2FE68E31193ED10300A68D7E /* AppDelegate.m */,
 				2FE68E33193ED10300A68D7E /* Images.xcassets */,
 				2FE68E28193ED10300A68D7E /* Supporting Files */,
+				2FE68E50193ED13600A68D7E /* TipViewController.h */,
+				2FE68E51193ED13600A68D7E /* TipViewController.m */,
+				2FE68E52193ED13600A68D7E /* TipViewController.xib */,
+				2FE68E551940473200A68D7E /* SettingsViewController.h */,
+				2FE68E561940473200A68D7E /* SettingsViewController.m */,
+				2FE68E571940473200A68D7E /* SettingsViewController.xib */,
 			);
 			path = QuickTipCalculator;
 			sourceTree = "<group>";
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE68E54193ED13600A68D7E /* TipViewController.xib in Resources */,
 				2FE68E2C193ED10300A68D7E /* InfoPlist.strings in Resources */,
 				2FE68E34193ED10300A68D7E /* Images.xcassets in Resources */,
+				2FE68E591940473200A68D7E /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE68E32193ED10300A68D7E /* AppDelegate.m in Sources */,
+				2FE68E53193ED13600A68D7E /* TipViewController.m in Sources */,
 				2FE68E2E193ED10300A68D7E /* main.m in Sources */,
+				2FE68E581940473200A68D7E /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
